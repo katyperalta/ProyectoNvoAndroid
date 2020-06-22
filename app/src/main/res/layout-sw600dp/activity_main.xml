@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/app_texto"
@@ -31,10 +32,10 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="402dp"
-        android:layout_height="713dp"
+        android:layout_width="344dp"
+        android:layout_height="703dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
         app:srcCompat="@drawable/marcianito_android"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="-104dp" />
+        tools:layout_editor_absoluteY="12dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
